@@ -77,7 +77,11 @@ Run the App ------------------flutter run
 Add these to pubspec.yaml:
 
 dependencies:
+
   flutter:
+  
     sdk: flutter
-  share_plus: ^7.0.0
-  path_provider: ^2.0.15
+    
+  share_plus: ^12.0.1
+  
+  path_provider: ^2.1.5
