@@ -71,6 +71,7 @@ Install Dependencies ---------flutter pub get,
 
 Run the App ------------------flutter run
 
+---
 
 📦**Dependencies**
 
@@ -79,7 +80,6 @@ Add these to pubspec.yaml:
 dependencies:
 
   flutter:
-  
     sdk: flutter
     
   share_plus: ^12.0.1
