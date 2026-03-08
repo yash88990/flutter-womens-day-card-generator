@@ -1,16 +1,80 @@
-# womensday
+# 🌸 Women's Day Greeting Card Generator (Flutter)
 
-A new Flutter project.
+A beautiful Flutter application that allows users to create and share personalized Women's Day greeting cards. Users can select card templates, add custom messages, preview the card, and share it instantly on social media platforms.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+• 🎨 Multiple greeting card templates  
+• ✏️ Add recipient name and sender name  
+• 💌 Write a personalized message  
+• 👀 Live card preview  
+• 📸 Convert card widget into image  
+• 📤 Share card to WhatsApp, Instagram, Email, etc  
+• 📱 Clean and responsive Flutter UI  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 App Screens
+
+1. Card Template Selection  
+2. Greeting Card Preview  
+3. User Input Fields  
+4. Share Greeting Card  
+
+---
+
+## 🛠️ Tech Stack
+
+**Framework**
+
+- Flutter
+
+**Language**
+
+- Dart
+
+**Packages Used**
+
+- `share_plus` → Share card images to other apps  
+- `path_provider` → Access device temporary storage  
+- `flutter/rendering` → Capture widget as image  
+
+---
+
+## ⚙️ How It Works
+
+1️⃣ User selects a greeting card template  
+
+2️⃣ User enters:
+- Recipient name
+- Sender name
+- Personal message
+
+3️⃣ App dynamically updates the card preview.
+
+4️⃣ When the user clicks **Share Greeting Card**:
+- The card widget is captured as an image using `RepaintBoundary`.
+- The image is saved in temporary storage.
+- The image is shared using the `share_plus` package.
+
+---
+
+## 🚀 Getting Started
+
+Clone the Repository
+Navigate to Project Folder ---cd flutter-womens-day-card-generator
+Install Dependencies ---------flutter pub get
+Run the App ------------------flutter run
+
+
+📦**Dependencies**
+
+Add these to pubspec.yaml:
+
+dependencies:
+  flutter:
+    sdk: flutter
+  share_plus: ^7.0.0
+  path_provider: ^2.0.15
