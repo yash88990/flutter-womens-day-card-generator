@@ -63,9 +63,12 @@ A beautiful Flutter application that allows users to create and share personaliz
 
 ## 🚀 Getting Started
 
-Clone the Repository
-Navigate to Project Folder ---cd flutter-womens-day-card-generator
-Install Dependencies ---------flutter pub get
+Clone the Repository,
+
+Navigate to Project Folder ---cd flutter-womens-day-card-generator,
+
+Install Dependencies ---------flutter pub get,
+
 Run the App ------------------flutter run
 
 
